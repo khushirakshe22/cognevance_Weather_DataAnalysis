@@ -1,92 +1,77 @@
 # Weather Data Analysis
 
-## Project Overview
+## Cognevance Technologies — Data Analysis with Python
 
-This project analyzes daily weather data from **2000 to 2024** using Python. The analysis focuses on temperature and rainfall trends and compares weather conditions across different months.
+An end-to-end weather data analysis project developed using Python to analyze daily weather observations from 2000 to 2024. The project focuses on temperature trends, rainfall patterns, monthly weather comparisons, data cleaning, validation, and visualization.
 
-## Dataset
+---
+
+## 📌 Project Overview
+
+This project analyzes daily weather data covering the period from **2000 to 2024**.
+
+The analysis focuses on:
+
+- Data loading and preprocessing
+- Data quality validation
+- Temperature trend analysis
+- Rainfall trend analysis
+- Monthly weather comparison
+- Seasonal pattern identification
+- Data visualization
+- Key insights reporting
+
+---
+
+## 🎯 Project Objectives
+
+The main objectives of this project are:
+
+1. Load and analyze a weather dataset using Python.
+2. Clean and validate the dataset using Pandas.
+3. Identify missing, duplicate, and incorrect records.
+4. Analyze temperature trends over time.
+5. Analyze rainfall patterns over time.
+6. Compare weather conditions across different months.
+7. Create meaningful visualizations using Matplotlib.
+8. Summarize important weather patterns and findings.
+
+---
+
+## 📊 Dataset
+
+### India Daily Weather Data
 
 - **Records:** 91,320
 - **Columns:** 12
 - **Time Period:** 2000–2024
 - **Dataset:** India Daily Weather Data
 
-## Project Workflow
+The dataset contains daily weather observations used to analyze temperature and rainfall patterns over time.
 
-### 1. Data Loading
+> **Note:** The dataset does not contain a humidity column. Therefore, humidity trends could not be analyzed.
 
-The weather dataset was loaded into Python using **Pandas**.
+---
 
-### 2. Data Cleaning and Validation
+## 🔄 Project Workflow
 
-The dataset was checked for:
-
-- Missing values
-- Duplicate records
-- Incorrect temperature records
-- Negative rainfall values
-- Negative precipitation values
-
-The `date` column was converted into datetime format.
-
-### 3. Temperature Analysis
-
-Year-wise and month-wise average maximum and minimum temperatures were analyzed to identify temperature trends and seasonal variations.
-
-### 4. Rainfall Analysis
-
-Year-wise and month-wise rainfall trends were analyzed to understand variations in rainfall across different periods.
-
-### 5. Monthly Weather Comparison
-
-Weather conditions were compared across all 12 months to identify monthly and seasonal patterns.
-
-### 6. Data Visualization
-
-Graphs were created using **Matplotlib** to present the analysis results clearly.
-
-## Data Cleaning Results
-
-- No missing values were found.
-- No duplicate records were found.
-- No incorrect temperature records were found.
-- No negative rainfall values were found.
-- No negative precipitation values were found.
-
-## Key Insights
-
-- **May** recorded the highest average maximum temperature: **36.75**.
-- **January** recorded the lowest average minimum temperature: **14.06**.
-- **July** recorded the highest average rainfall: **9.69**.
-- **January** recorded the lowest average rainfall: **0.33**.
-- The dataset does not contain a humidity column, so humidity trends could not be analyzed.
-
-## Visualizations
-
-The project includes the following visualizations:
-
-1. Yearly Temperature Trends
-2. Yearly Rainfall Trend
-3. Monthly Temperature Comparison
-4. Monthly Rainfall Comparison
-
-## Tools and Technologies
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Google Colab
-
-## Project Files
-
-- `Weather_Data_Analysis_Cognevance.ipynb` – Complete Python analysis notebook
-- `india_2000_2024_daily_weather_cleaned.csv` – Cleaned weather dataset
-- `Yearly Temperature Trends.png` – Yearly temperature visualization
-- `Yearly Rainfall Trend.png` – Yearly rainfall visualization
-- `Monthly Temperature Comparison.png` – Monthly temperature visualization
-- `Monthly Rainfall Comparison.png` – Monthly rainfall visualization
-
-## Conclusion
-
-The analysis shows clear seasonal variations in temperature and rainfall. The results provide an overview of yearly and monthly weather patterns in the analyzed dataset.
+```text
+Weather Dataset
+       ↓
+Data Loading
+       ↓
+Data Cleaning
+       ↓
+Data Validation
+       ↓
+Temperature Analysis
+       ↓
+Rainfall Analysis
+       ↓
+Monthly Weather Comparison
+       ↓
+Data Visualization
+       ↓
+Key Insights
+       ↓
+Final Analysis Report
